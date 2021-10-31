@@ -159,31 +159,31 @@ brookings_cols <- function(...) {
 #' @rdname brookings_palettes
 #'
 brookings_palettes <- list(
-  # BROOKINGS BRAND COLORS
-  # Use colors from the brand palette whenever possible.
-  brand1 = brookings_cols("brookings blue", "orange_40", "vivid_blue_20", "grey_10", "yellow_50"),
 
-  # SEMANTIC
-  # Where applicable, use colors that are associated with certain concepts. For e.g.,
-  #option 1 shows male and female data, and option 2 show pros and cons or positive and negative data.
+  ### GENDER
   semantic_gender = brookings_cols("teal_30", "red_40"),
 
   political2 = brookings_cols("vivid_blue_30", "red_30"),
 
-  # SEQUENTIAL
+  ### SEQUENTIAL
   sequential_blue = c("#00649fff", "#0f78baff", "#1c8ad6ff", "#2e97eaff", "#56adf6ff", "#87c4feff", "#bcdefbff"),
 
   sequential_green = c("#0d636fff", "#008080ff", "#009a80ff", "#2bb275ff", "#6dc960ff", "#b1dc44ff", "#fce829ff"),
 
-  # Diverging
+  ### DIVERGING
   diverging = c("#0f78baff", "#739fceff", "#b1c5deff", "#efefefff", "#f6b5a9ff", "#f07867ff", "#e02928ff"),
 
-  # MISCELLANEOUS
-  # A pleasing option using Brookings Blue and accent yellow
+  # CATEGORICAL
 
-  THP_categorical1 = brookings_cols("THP_dkgreen","THP_green","THP_purple"),
+  Brand_Brookings = brookings_cols("brookings blue", "vivid_blue_20", "orange_40", "grey_10", "yellow_50"),
 
-  THP_categorical2 = brookings_cols("THP_dkblue","THP_green", "THP_ltblue", "THP_yellow", "THP_purple", "THP_orange"),
+  Brand_Brookings_2 = brookings_cols("brookings blue", "orange_40", "vivid_blue_20", "grey_10", "yellow_50"),
+
+
+  THP_Categorical = brookings_cols("THP_dkgreen","THP_green","THP_purple","THP_ltblue","THP_orange", "THP_yellow"),
+
+  THP_Categorical_2 = brookings_cols("THP_dkblue","THP_green", "THP_ltblue", "THP_yellow", "THP_purple", "THP_orange"),
+
 
 
   THP_continuous_purple = brookings_cols("extra_ltpurple", "THP_purple")
