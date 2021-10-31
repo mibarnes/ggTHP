@@ -126,7 +126,7 @@ brookings_colors <-
     THP_orange ='#FF6E00',
     THP_yellow ='#FFB612',
 
-    extra_ltpurple = '#C957BC',
+    extra_ltpurple = '#C957BC'
 
 
     )
