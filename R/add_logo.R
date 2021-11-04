@@ -1,7 +1,7 @@
 #' Add a logo to your plot or image
 #' This function places a logo at one of the corners of your image/plot
 #' @param plot_path url or local file for the plot
-#' @param logo_path url, local file for the logo, or one of the built in logos. Can be a character string in c('brookings', 'es', 'metro', 'ccf', 'hc', 'thp')
+#' @param logo_path url, local file for the logo, or one of the built in logos. Can be a character string in c('brookings', 'es', 'metro', 'ccf', 'hc', 'thp', 'THP_logo')
 #' @param logo_position Optional. Valid options are 'top left', 'top right', 'bottom left', and 'bottom right'. Default logo position is 'bottom right'.
 #' @param logo_scale Optional. The portion of the plot width the logo should occupy. The default is 5 which means that the logo will be 1/5th of the plot width.
 #' @param height_padding Optional. Control the y axis position of a logo by specifying the padding proportion. Default is 4.5% padding.
@@ -11,7 +11,7 @@
 #' @export
 #' @import magick
 #'
-add_logo <- function(plot_path, logo_path =  c('brookings','es', 'metro', 'ccf', 'hc', 'thp'),
+add_logo <- function(plot_path, logo_path =  c('brookings','es', 'metro', 'ccf', 'hc', 'thp', 'THP_logo'),
                      logo_position = 'bottom right', logo_scale = 5, height_padding = 0.045, width_padding = 0.02){
 
   # Requires magick R Package https://github.com/ropensci/magick
@@ -22,7 +22,7 @@ add_logo <- function(plot_path, logo_path =  c('brookings','es', 'metro', 'ccf',
   }
 
 
-  if(logo_path %in% c('brookings','es', 'metro', 'ccf', 'hc', 'thp')){
+  if(logo_path %in% c('brookings','es', 'metro', 'ccf', 'hc', 'thp', 'THP_logo')){
     logo_path <- match.arg(logo_path)
 
     logo_path <- system.file(package = 'ggTHP', glue::glue('logos/{logo_path}.png'))
