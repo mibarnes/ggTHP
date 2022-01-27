@@ -121,7 +121,7 @@ brookings_colors <-
     THP_dkgreen ='#427730',
     THP_purple ='#6E2585',
     THP_grey ='#FC7F92',
-    THP_ltblue ='#00ADD0',
+    #THP_ltblue ='#00ADD0',
     THP_green ='#69BE28',
     THP_orange ='#FF6E00',
     THP_yellow ='#FFB612',
@@ -129,6 +129,7 @@ brookings_colors <-
     THP_yellow2 ='gold2',
     THP_navy ='navyblue',
     THP_ltblue2 ='steelblue1',
+    THP_ltblue = '#619CFF',
     THP_red ='red3',
     THP_ltturquoise ='lightseagreen')
 
@@ -178,7 +179,7 @@ brookings_palettes <- list(
   THP_Categorical_4 = brookings_cols("THP_dkblue","THP_yellow", "THP_grey", "THP_ltgreen", "THP_green", "THP_turquoise", "THP_orange"),
 
 
-  THP_Categorical_5 = brookings_cols("THP_yellow2", "THP_turquoise","THP_green", "THP_purple", "THP_orange"),
+  THP_Categorical_5 = brookings_cols("THP_yellow2", "THP_turquoise","THP_ltblue", "THP_purple", "THP_orange"),
 
 
 

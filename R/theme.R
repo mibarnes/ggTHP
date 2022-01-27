@@ -134,7 +134,7 @@ theme_brookings <- function(base_size = 14,
       face = "bold",
       hjust = 0,
       vjust = 1,
-      margin = margin(b = base_size, t = base_size/2)      ### CHANGED 'B'-BOTTOM MARGIN TO BASE_SIZE/2 FROM HALF_LINE/2
+      margin = margin(b = 1.5*base_size, t = base_size/2)      ### CHANGED 'B'-BOTTOM MARGIN TO BASE_SIZE/2 FROM HALF_LINE/2
     ),
     plot.title.position = "plot",
     plot.subtitle =      ggtext::element_textbox_simple(
