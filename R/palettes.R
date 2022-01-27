@@ -126,7 +126,7 @@ brookings_colors <-
     THP_orange ='#FF6E00',
     THP_yellow ='#FFB612',
 
-    THP_yellow2 ='gold',
+    THP_yellow2 ='gold2',
     THP_navy ='navyblue',
     THP_ltblue2 ='steelblue1',
     THP_red ='red3',
@@ -178,7 +178,7 @@ brookings_palettes <- list(
   THP_Categorical_4 = brookings_cols("THP_dkblue","THP_yellow", "THP_grey", "THP_ltgreen", "THP_green", "THP_turquoise", "THP_orange"),
 
 
-  THP_Categorical_5 = brookings_cols("THP_green", "THP_purple", "THP_yellow2","THP_dkblue", "THP_orange"),
+  THP_Categorical_5 = brookings_cols("THP_yellow2", "THP_turquoise","THP_green", "THP_purple", "THP_orange"),
 
 
 
