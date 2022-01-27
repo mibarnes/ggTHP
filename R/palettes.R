@@ -124,7 +124,13 @@ brookings_colors <-
     THP_ltblue ='#00ADD0',
     THP_green ='#69BE28',
     THP_orange ='#FF6E00',
-    THP_yellow ='#FFB612'
+    THP_yellow ='#FFB612',
+
+    THP_yellow2 ='gold',
+    THP_navy ='navyblue',
+    THP_ltblue2 ='steelblue1',
+    THP_red ='red3',
+    THP_ltturquoise ='lightseagreen')
 
     # MB_ltpurple = '#C957BC',
     # MB_navy = 'navyblue',
@@ -132,19 +138,10 @@ brookings_colors <-
     #
     # MB_blue_cont1 = 'skyblue',
     # MB_blue_cont1 = '#C957BC',
-    # MB_blue_cont1 = '#C957BC',
-    # MB_blue_cont1 = '#C957BC',
-    # MB_blue_cont1 = '#C957BC',
-    # MB_blue_cont1 = '#C957BC',
-    # MB_blue_cont1 = '#C957BC',
-    # MB_blue_cont1 = '#C957BC',
     #
     #     MB_navy = 'navyblue',
     # MB_red = 'tomato',
 
-
-
-    )
 
 
 #' Function to extract Brookings colors as hex codes
@@ -179,6 +176,10 @@ brookings_palettes <- list(
   THP_Categorical_3 = brookings_cols("THP_purple","THP_yellow", "THP_ltblue", "THP_orange", "THP_ltgreen", "THP_turquoise"),
 
   THP_Categorical_4 = brookings_cols("THP_dkblue","THP_yellow", "THP_grey", "THP_ltgreen", "THP_green", "THP_turquoise", "THP_orange"),
+
+
+  THP_Categorical_5 = brookings_cols("THP_green", "THP_purple", "THP_yellow2","THP_dkblue", "THP_orange"),
+
 
 
 
