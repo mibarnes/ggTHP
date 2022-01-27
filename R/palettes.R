@@ -179,7 +179,7 @@ brookings_palettes <- list(
   THP_Categorical_4 = brookings_cols("THP_dkblue","THP_yellow", "THP_grey", "THP_ltgreen", "THP_green", "THP_turquoise", "THP_orange"),
 
 
-  THP_Categorical_5 = brookings_cols("THP_yellow2", "THP_turquoise","THP_ltblue", "THP_purple", "THP_orange"),
+  THP_Categorical_5 = brookings_cols("THP_yellow2", "THP_green","THP_ltblue", "THP_purple", "THP_orange"),
 
   THP_Categorical_6 = brookings_cols("THP_yellow2", "THP_turquoise","THP_ltblue2", "THP_purple", "THP_orange"),
 
