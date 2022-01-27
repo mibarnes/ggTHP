@@ -124,19 +124,27 @@ brookings_colors <-
     THP_ltblue ='#00ADD0',
     THP_green ='#69BE28',
     THP_orange ='#FF6E00',
-    THP_yellow ='#FFB612',
+    THP_yellow ='#FFB612'
 
-    extra_ltpurple = '#C957BC'
+    # MB_ltpurple = '#C957BC',
+    # MB_navy = 'navyblue',
+    # MB_red = 'tomato',
+    #
+    # MB_blue_cont1 = 'skyblue',
+    # MB_blue_cont1 = '#C957BC',
+    # MB_blue_cont1 = '#C957BC',
+    # MB_blue_cont1 = '#C957BC',
+    # MB_blue_cont1 = '#C957BC',
+    # MB_blue_cont1 = '#C957BC',
+    # MB_blue_cont1 = '#C957BC',
+    # MB_blue_cont1 = '#C957BC',
+    #
+    #     MB_navy = 'navyblue',
+    # MB_red = 'tomato',
+
 
 
     )
-
-
-
-
-
-
-
 
 
 #' Function to extract Brookings colors as hex codes
@@ -153,25 +161,9 @@ brookings_cols <- function(...) {
 }
 
 
-
-
-
 #' @rdname brookings_palettes
 #'
 brookings_palettes <- list(
-
-  ### GENDER
-  semantic_gender = brookings_cols("teal_30", "red_40"),
-
-  political2 = brookings_cols("vivid_blue_30", "red_30"),
-
-  ### SEQUENTIAL
-  sequential_blue = c("#00649fff", "#0f78baff", "#1c8ad6ff", "#2e97eaff", "#56adf6ff", "#87c4feff", "#bcdefbff"),
-
-  sequential_green = c("#0d636fff", "#008080ff", "#009a80ff", "#2bb275ff", "#6dc960ff", "#b1dc44ff", "#fce829ff"),
-
-  ### DIVERGING
-  diverging = c("#0f78baff", "#739fceff", "#b1c5deff", "#efefefff", "#f6b5a9ff", "#f07867ff", "#e02928ff"),
 
   # CATEGORICAL
 
@@ -184,9 +176,34 @@ brookings_palettes <- list(
 
   THP_Categorical_2 = brookings_cols("THP_dkblue","THP_green", "THP_ltblue", "THP_yellow", "THP_purple", "THP_orange"),
 
+  THP_Categorical_3 = brookings_cols("THP_purple","THP_yellow", "THP_ltblue", "THP_orange", "THP_ltgreen", "THP_turquoise"),
+
+  THP_Categorical_4 = brookings_cols("THP_dkblue","THP_yellow", "THP_grey", "THP_ltgreen", "THP_green", "THP_turquoise", "THP_orange"),
 
 
-  THP_continuous_purple = brookings_cols("extra_ltpurple", "THP_purple")
+
+  THP_Continuous_Blue = brookings_cols("extra_ltpurple", "THP_purple"),
+
+
+
+  THP_Continuous_Purple = brookings_cols("extra_ltpurple", "THP_purple"),
+
+
+
+
+  ### GENDER
+  semantic_gender = brookings_cols("teal_30", "red_40"),
+
+  political2 = brookings_cols("vivid_blue_30", "red_30"),
+
+  ### SEQUENTIAL
+  sequential_blue = c("#00649fff", "#0f78baff", "#1c8ad6ff", "#2e97eaff", "#56adf6ff", "#87c4feff", "#bcdefbff"),
+
+  sequential_green = c("#0d636fff", "#008080ff", "#009a80ff", "#2bb275ff", "#6dc960ff", "#b1dc44ff", "#fce829ff"),
+
+  ### DIVERGING
+  diverging = c("#0f78baff", "#739fceff", "#b1c5deff", "#efefefff", "#f6b5a9ff", "#f07867ff", "#e02928ff")
+
 
 )
 
