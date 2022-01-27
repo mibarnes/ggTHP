@@ -131,7 +131,8 @@ brookings_colors <-
     THP_ltblue2 ='steelblue1',
     THP_ltblue3 = '#619CFF',
     THP_red ='red3',
-    THP_ltturquoise ='lightseagreen')
+    THP_ltturquoise ='lightseagreen',
+    THP_dkgreen2 ='seagreen')
 
     # MB_ltpurple = '#C957BC',
     # MB_navy = 'navyblue',
@@ -183,7 +184,7 @@ brookings_palettes <- list(
 
   THP_Categorical_6 = brookings_cols("THP_yellow2", "THP_dkgreen","THP_ltblue", "THP_purple", "THP_orange"),
 
-  THP_Categorical_7 = brookings_cols("THP_yellow2", "THP_turquoise","THP_ltblue", "THP_purple", "THP_orange"),
+  THP_Categorical_7 = brookings_cols("THP_yellow2", "THP_dkgreen2","THP_ltblue", "THP_purple", "THP_orange"),
 
 
   THP_Continuous_Blue = brookings_cols("extra_ltpurple", "THP_purple"),
