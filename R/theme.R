@@ -160,7 +160,8 @@ theme_brookings <- function(base_size = 14,
       color = "#007363"                             ### FIGURE NUMBER LABEL COLOR - THP ###
     ),
     plot.tag.position =  c(0, 1),
-    plot.margin =        margin(half_line, half_line, half_line * 2, half_line),
+   plot.margin = unit(c(half_line, half_line, half_line * 2, half_line), "pt"),
+    # plot.margin =        margin(half_line, half_line, half_line * 2, half_line),
     # plot.margin = unit(c(0.5, 0.5, 2.5, 0.5), "lines"),
 
     complete = FALSE
