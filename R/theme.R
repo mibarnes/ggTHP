@@ -164,8 +164,8 @@ theme_brookings <- function(base_size = 14,
     # plot.margin =        margin(half_line, half_line, half_line * 2, half_line),
     # plot.margin = unit(c(0.5, 0.5, 2.5, 0.5), "lines"),
 
-    #complete = FALSE
-  )
+    # complete = FALSE
+  ))
 
 
   if (ticks == FALSE) {
